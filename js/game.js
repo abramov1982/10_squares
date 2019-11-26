@@ -45,8 +45,8 @@ function handleClick(event) {
 
 function init() {
   $("#button-start").click(function() {
-    round();
     countMiss = 0;
+    round();
     $("#button-start").hide();
     $("#button-reload").show();
     firstHitTime = Date.now();
